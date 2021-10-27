@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+}
+
+#divCards{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+.div-cards{
+    width: 300px;
+    height: 400px;
+    background-color: #bf75dd;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+}
+
+.img-card img{
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-description{
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-description:hover{
+    background-color: purple;
+}
+
+/* Imagens */
+.image{
+    padding-left: 10px;
+    float: left;
+}
+
+.image img{
+    width: 225px;
+    height: 300px;
+    border: 2px solid #5500ff00;
+}
+
+.image img:hover{
+    border: 2px solid #5500FF;
+}
+
+
+/* Formulário */
+
+.forms{
+    background-color: pink;
+}
+
+.formulario{
+    margin-top: 30px;
+    margin-left: 420px;
+    margin-bottom: 30px;
+    width: 400px;
+    padding: 40px;
+    color: #fd47b8;
+    background-color: #bf75dd;
+}
+
+.formulario h1{
+    margin-bottom: 40px;
+    margin-left: 95px;
+}
+
+.credentials{
+    margin-left: 160px;
+}
+.address{
+    margin-left: 146px;
+}
+
+::placeholder {
+    color: #c49fb7;
+    opacity: 0.5; 
+}
+
+.formulario input[type="text"]{
+    border-radius: 5px;
+    border: 0px;
+    width: 380px;
+    height: 50px;
+    
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: #021749;
+    text-indent: 15px;
+}
+
+.formulario input[type="password"]{
+    border-radius: 5px;
+    border: 0px;
+    width: 380px;
+    height: 50px;
+
+    margin-bottom: 45px;
+    margin-top: 10px;
+    background-color: #021749;
+    text-indent: 15px;
+}
+
+.formulario input[type="submit"]{
+    border-radius: 20px;
+    border: 0px;
+    width: 300px;
+    height: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+    background: #f166bc;  
+}
+
+.formulario input[type="submit"]:hover{
+    background: #a26cb8;
+}
+
+/* Tabela */
+.divMusicas table, th, td {
+  border: 1px solid black;
+}
